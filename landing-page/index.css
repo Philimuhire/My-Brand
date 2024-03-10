@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #101D23;;
+}
+.nav{
+    margin: 50px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.name{
+    color: #101D23;
+    font-size: 1.2 rem;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.nav-middle{
+    flex-grow: 1;
+    text-align: center;
+}
+.nav-middle a{
+    color: #101D23;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.nav-middle a:hover{
+    color: blue;
+}
+.nav-right a{
+    color: whitesmoke;
+    background-color: blue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.nav-right a:hover{
+    background-color: #51b8e8;
+}
+.home-content{
+    margin: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    padding: 20px;
+}
+.left{
+    flex: 1;
+    padding-top: 20px;
+}
+.right img{
+    width: 230px;
+    height: 400px;
+}
+.left h2{
+    color: blue;
+    font-weight: normal;
+}
+.left p{
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 24px;
+}
+.left p span{
+    color: blue; 
+}
+.left a{
+    padding-top: 20px;
+    color: whitesmoke;
+    background-color: blue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.left a:hover{
+    background-color: #51b8e8;
+}
+.served{
+    margin: 20px auto;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 0px 20px;
+    /*background-color: #101D23;*/
+    border: 3px solid #51b8e8;
+    border-radius: 50px;
+    color: #333;
+}
+.served p{
+    font-size: 16px;
+    margin-right: 20px;
+}
+.served p span{
+    font-weight: bolder;
+    font-size: 24px;
+}
+.social-media{
+    padding-top: 100px;
+    display: flex;  
+    gap: 10px; 
+    border-radius: 50%;  
+}
+.social-icon{
+    font-size: 24px;
+    padding: 5px 10x;
+}
+
