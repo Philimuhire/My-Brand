@@ -67,6 +67,10 @@ body{
     padding: 0px 50px;
     color: #333;
     background-color: rgb(158, 151, 151);
+<<<<<<< Updated upstream
+=======
+    border-radius: 50px;
+>>>>>>> Stashed changes
 }
 .my-info p{
     font-size: 16px;
@@ -78,4 +82,12 @@ body{
     font-size: 20px;
 }
 
+<<<<<<< Updated upstream
+=======
+.info:hover{
+    color: #fff;
+    background-color: #51b8e8;
+}
+
+>>>>>>> Stashed changes
 
