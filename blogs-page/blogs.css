@@ -61,12 +61,40 @@ body{
     display: flex;
     gap: 20px;
 }
+<<<<<<< Updated upstream
 .blog .image{
+=======
+.blog .image-1{
+>>>>>>> Stashed changes
     width: 300px;
     height: 200px;
     background-color: #101D23;
     border-radius: 10px;
 }
+<<<<<<< Updated upstream
+=======
+.blogs-content #first-blog{
+    background-image: url('/images/blog1.jpeg');
+}
+.blog .image-2{
+    width: 300px;
+    height: 200px;
+    background-color: #101D23;
+    border-radius: 10px;
+}
+.blogs-content #second-blog{
+    background-image: url('/images/blog3.jpg');
+}
+.blog .image-3{
+    width: 300px;
+    height: 200px;
+    background-color: #101D23;
+    border-radius: 10px;
+}
+.blogs-content #third-blog{
+    background-image: url('/images/blog2.jpeg');
+}
+>>>>>>> Stashed changes
 .blog .description{
     display: flex;
     flex-direction: column;
