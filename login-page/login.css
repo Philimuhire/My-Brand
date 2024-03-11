@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #101D23;;
+}
+.nav{
+    margin: 50px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.name{
+    color: #101D23;
+    font-size: 1.2 rem;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.nav-middle{
+    flex-grow: 1;
+    text-align: center;
+}
+.nav-middle a{
+    color: #101D23;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.nav-middle a:hover{
+    color: blue;
+}
+.nav-right a{
+    color: whitesmoke;
+    background-color: blue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.nav-right a:hover{
+    background-color: #51b8e8;
+}
+.login-container{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.login-form{
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+.login-form h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group label{
+    display: block;
+    font-size: 16px;
+}
+.form-group input{
+    width: 100%;
+    padding: 10px;
+}
+.form-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.form-options a{
+    text-decoration: none;
+    color: blue;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #101D23;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #51b8e8;
+}
+
+

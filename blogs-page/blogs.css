@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #101D23;;
+}
+.nav{
+    margin: 50px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.name{
+    color: #101D23;
+    font-size: 1.2 rem;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.nav-middle{
+    flex-grow: 1;
+    text-align: center;
+}
+.nav-middle a{
+    color: #101D23;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.nav-middle a:hover{
+    color: blue;
+}
+.nav-right a{
+    color: whitesmoke;
+    background-color: blue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.nav-right a:hover{
+    background-color: #51b8e8;
+}
+.title{
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+.title-p{
+    margin: 20px 50px;
+    text-align: center;
+    font-size: 16px;
+}
+.blogs-content{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.blog{
+    display: flex;
+    gap: 20px;
+}
+<<<<<<< Updated upstream
+.blog .image{
+=======
+.blog .image-1{
+>>>>>>> Stashed changes
+    width: 300px;
+    height: 200px;
+    background-color: #101D23;
+    border-radius: 10px;
+}
+<<<<<<< Updated upstream
+=======
+.blogs-content #first-blog{
+    background-image: url('/images/blog1.jpeg');
+}
+.blog .image-2{
+    width: 300px;
+    height: 200px;
+    background-color: #101D23;
+    border-radius: 10px;
+}
+.blogs-content #second-blog{
+    background-image: url('/images/blog3.jpg');
+}
+.blog .image-3{
+    width: 300px;
+    height: 200px;
+    background-color: #101D23;
+    border-radius: 10px;
+}
+.blogs-content #third-blog{
+    background-image: url('/images/blog2.jpeg');
+}
+>>>>>>> Stashed changes
+.blog .description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.blog .description h3{
+    font-weight: normal;
+}
+.blog .description h1{
+    font-size: 24px;
+}
+.blog .description a{
+    width: 80px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #101D23;
+    text-decoration: none;
+    border: 1px dashed #101D23;
+}
+.blog .description a:hover{
+    background-color: #101D23;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
