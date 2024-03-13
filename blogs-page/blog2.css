@@ -1,3 +1,27 @@
+@media screen and (max-width: 767px){
+    .nav-middle {
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+
+    .nav-middle.show {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-icon {
+        width: 20px;
+        height: 20px;
+        color: #101D23;
+        display: block;
+    }
+    .nav-middle a{
+        padding: 5px;
+    }
+}
+
 body{
     margin: 0;
     padding: 0;
