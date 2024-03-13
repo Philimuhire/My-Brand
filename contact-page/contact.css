@@ -1,3 +1,30 @@
+<<<<<<< Updated upstream
+=======
+@media screen and (max-width: 767px){
+    .nav-middle {
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+
+    .nav-middle.show {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-icon {
+        width: 20px;
+        height: 20px;
+        color: #101D23;
+        display: block;
+    }
+    .nav-middle a{
+        padding: 5px;
+    }
+}
+
+>>>>>>> Stashed changes
 body{
     margin: 0;
     padding: 0;
@@ -84,14 +111,23 @@ button{
     color: #fff;
 <<<<<<< Updated upstream
     border-radius: 50px;
+<<<<<<< Updated upstream
 =======
 <<<<<<< Updated upstream
     border-radius: 50px;
 =======
+=======
+<<<<<<< Updated upstream
+=======
+    border-radius: 50px;
+>>>>>>> Stashed changes
     border: none;
     border-radius: 50px;
     cursor: pointer;
 >>>>>>> Stashed changes
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
 button:hover{
