@@ -1,3 +1,37 @@
+<<<<<<< Updated upstream
+=======
+@media screen and (max-width: 767px){
+    .nav-middle {
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+
+    .nav-middle.show {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-icon {
+        width: 20px;
+        height: 20px;
+        color: #101D23;
+        display: block;
+    }
+    .nav-middle a{
+        padding: 5px;
+    }
+    .home-content{
+        flex-direction: column-reverse;
+    }
+    .served{
+        flex-direction: row;
+    }
+}
+
+
+>>>>>>> Stashed changes
 body{
     margin: 0;
     padding: 0;
@@ -103,6 +137,7 @@ body{
 }
 .social-media{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     padding-top: 100px;
     display: flex;  
     gap: 10px; 
@@ -113,6 +148,8 @@ body{
     padding: 5px 10x;
 }
 =======
+=======
+>>>>>>> Stashed changes
     padding-top: 80px;
     display: flex;  
     gap: 10px; 
@@ -125,5 +162,8 @@ body{
     background-color: #333;
     border-radius: 50px;   
 }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
