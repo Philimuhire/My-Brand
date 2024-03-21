@@ -12,7 +12,15 @@
         <div class="nav-left">
             <span class="name">PHILBERT MUHIRE</span>
         </div>
+<<<<<<< Updated upstream
         <div class="nav-middle" id="navLinks">
+=======
+<<<<<<< Updated upstream
+        <div class="nav-middle">
+=======
+        <div class="nav-middle" id="navLinks">
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
             <a href="/landing-page/index.html">HOME</a>
             <a href="/about-page/about.html">ABOUT ME</a>
             <a href="/skills-page/skills.html">SKILLS</a>
@@ -21,10 +29,20 @@
             <a href="/login-page/login.html">LOGIN</a>
         </div>
         <div class="nav-right">
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+            <a href="#">CONTACT ME</a>
+=======
+>>>>>>> Stashed changes
             <a href="/contact-page/contact.html">CONTACT ME</a>
         </div>
         <div class="menu-icon" id="menuIcon">
             <i class="fas fa-bars"></i>
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
         </div>
     </header>
 
@@ -36,17 +54,37 @@
 
     <main class="portfolio-content">
         <div class="portfolio-links">
-            <a href="#">Show All</a>
-            <a href="#">UI/UX</a>
-            <a href="#">Apps</a>
-        </div>
-        
+            <a href="#" class="filter" data-category="all">Show All</a>
+            <a href="#" class="filter" data-category="ui-ux">UI/UX</a>
+            <a href="#" class="filter" data-category="apps">Apps</a>
+        </div>  
     </main>  
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+=======
+
+    <div class="portfolios">
+        <div class="portfolio calculator" data-category="apps">
+            <p>Calculator</p>
+            <a href="#">Read more</a>
+        </div>
+        <div class="portfolio url-shortener" data-category="apps">
+            <p>Url-shortener</p>
+            <a href="#">Read more</a>
+        </div>
+        <div class="portfolio techme" data-category="ui-ux">
+            <p>TechMe</p>
+            <a href="#">Read more</a>
+        </div>
+    </div>    
+>>>>>>> Stashed changes
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const menuIcon = document.getElementById('menuIcon');
             const navLinks = document.getElementById('navLinks');
+<<<<<<< Updated upstream
         
             menuIcon.addEventListener('click', function () {
                 navLinks.classList.toggle('show');
@@ -55,5 +93,36 @@
         
     </script>
 
+=======
+
+            menuIcon.addEventListener('click', function () {
+                navLinks.classList.toggle('show');
+            });
+
+            const filters = document.querySelectorAll('.filter');
+            const portfolios = document.querySelectorAll('.portfolio');
+
+            filters.forEach(filter => {
+                filter.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const category = this.getAttribute('data-category');
+                    filterPortfolios(category);
+                });
+            });
+
+            function filterPortfolios(category) {
+                portfolios.forEach(portfolio => {
+                    if (category === 'all' || portfolio.getAttribute('data-category') === category) {
+                        portfolio.style.display = 'block';
+                    } else {
+                        portfolio.style.display = 'none';
+                    }
+                });
+            }
+        });
+    </script>
+
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 </body>
 </html>

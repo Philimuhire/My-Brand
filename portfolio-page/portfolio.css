@@ -97,5 +97,57 @@ body{
     background-color: #51b8e8;
 }
 
+.portfolios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.portfolio{
+    margin: 50px;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.portfolio.calculator{
+    background-image: url(/images/calculator.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.portfolio.url-shortener{
+    background-image: url(/images/url-shortener.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.portfolio.techme{
+    background-image: url(/images/TechMe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}  
+
+.portfolio p{
+    background-color: #101D23;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.portfolio a{
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px; 
+    text-decoration: none;  
+}
+.portfolio p:hover, .portfolio a:hover{
+    background-color: #51b8e8;
+}
+
 
 
