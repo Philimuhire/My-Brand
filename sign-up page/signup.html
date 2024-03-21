@@ -4,11 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<<<<<<< Updated upstream
-    <title>MY BRAND | HOME</title>
-=======
     <title>MY BRAND | SIGN UP</title>
->>>>>>> Stashed changes
     <link rel="stylesheet" href="/sign-up page/signup.css">
 </head>
 <body>
@@ -16,11 +12,7 @@
         <div class="nav-left">
             <span class="name">PHILBERT MUHIRE</span>
         </div>
-<<<<<<< Updated upstream
-        <div class="nav-middle">
-=======
         <div class="nav-middle" id="navLinks">
->>>>>>> Stashed changes
             <a href="/landing-page/index.html">HOME</a>
             <a href="/about-page/about.html">ABOUT ME</a>
             <a href="/skills-page/skills.html">SKILLS</a>
@@ -31,16 +23,13 @@
         <div class="nav-right">
             <a href="/contact-page/contact.html">CONTACT ME</a>
         </div>
-<<<<<<< Updated upstream
-=======
         <div class="menu-icon" id="menuIcon">
             <i class="fas fa-bars"></i>
         </div>
->>>>>>> Stashed changes
     </header>
 
     <main class="signup-container">
-        <form class="signup-form">
+        <form class="signup-form" id="signupForm" onsubmit="return validateForm()">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
             Quod libero tempora quasi officiis numquam eius quas quaerat quidem, inventore nihil.</p>
             <div class="form-group">
@@ -48,16 +37,19 @@
                 <input type="text" id="username" name="username" required>
             </div>
             <div class="form-group">
-                <label for="password">Password</label>
+                <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
+                <span id="emailError" class="error"></span>
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
+                <span id="passwordError" class="error"></span>
             </div>
             <div class="form-group">
                 <label for="password">Confirm Password</label>
                 <input type="confirm-password" id="confirm-password" name="confirm-password" required>
+                <span id="confirmPasswordError" class="error"></span>
             </div>
             <div class="form-options">
                 <a href="#">Forgot password?</a>
@@ -68,8 +60,6 @@
 
     </main>
 
-<<<<<<< Updated upstream
-=======
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const menuIcon = document.getElementById('menuIcon');
@@ -79,11 +69,48 @@
                 navLinks.classList.toggle('show');
             });
         });
-        
-    </script>
 
->>>>>>> Stashed changes
 
-    
+        function validateForm() {
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+            var confirmPassword = document.getElementById('confirm-password').value;
+
+            if (!isValidEmail(email)) {
+                document.getElementById('emailError').innerText = 'Please enter a valid email address.';
+                return false;
+            } else {
+                document.getElementById('emailError').innerText = '';
+            }
+
+            if (!isValidPassword(password)) {
+                document.getElementById('passwordError').innerText = 'Password must contain at least one uppercase letter, one lowercase letter, one number, one symbol, and be at least 8 characters long.';
+                return false;
+            } else {
+                document.getElementById('passwordError').innerText = '';
+            }
+
+            if (password !== confirmPassword) {
+                document.getElementById('confirmPasswordError').innerText = 'Passwords do not match.';
+                return false;
+            } else {
+                document.getElementById('confirmPasswordError').innerText = '';
+            }
+
+            return true;
+        }
+
+        function isValidEmail(email) {
+            return email.includes('@') && email.includes('.');
+        }
+
+        function isValidPassword(password) {
+            return password.length >= 8 &&
+                /[a-z]/.test(password) &&
+                /[A-Z]/.test(password) &&
+                /\d/.test(password) &&
+                /[^a-zA-Z\d\s]/.test(password);
+        }
+    </script>    
 </body>
 </html>
