@@ -112,7 +112,11 @@ button{
     background-color: #101D23;
     color: #fff;
     border: none;
+<<<<<<< Updated upstream
     border-radius: 5px;
+=======
+    border-radius: 50px;
+>>>>>>> Stashed changes
     cursor: pointer;
 }
 button:hover{
