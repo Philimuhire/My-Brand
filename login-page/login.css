@@ -1,4 +1,7 @@
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 @media screen and (max-width: 767px){
     .nav-middle {
         display: none;
@@ -112,9 +115,18 @@ button{
     background-color: #101D23;
     color: #fff;
     border: none;
+<<<<<<< Updated upstream
     border-radius: 5px;
+=======
+    border-radius: 50px;
+>>>>>>> Stashed changes
     cursor: pointer;
 }
 button:hover{
     background-color: #51b8e8;
 }
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
