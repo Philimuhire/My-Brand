@@ -1,5 +1,8 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 @media screen and (max-width: 767px){
     .nav-middle {
         display: none;
@@ -33,6 +36,9 @@
 
 
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 body{
     margin: 0;
@@ -118,5 +124,40 @@ body{
 .right{
     flex: 1;
 }
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:skills-page/skills.css
+========
+.info{
+    margin: 20px 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 50px;
+    color: #333;
+    background-color: rgb(158, 151, 151);
+}
+<<<<<<< Updated upstream
+=======
+.info:hover{
+    background-color: #51b8e8;
+}
+>>>>>>> Stashed changes
+.my-info p{
+    font-size: 16px;
+    margin-right: 20px;
+}
+.my-info p span{
+    display: block;
+    font-weight: bolder;
+    font-size: 20px;
+}
+>>>>>>>> Stashed changes:about-page/about.css
 
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
+=======
+
+
+>>>>>>> Stashed changes
