@@ -91,6 +91,10 @@ article{
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
+<<<<<<< Updated upstream
+=======
+    border-radius: 50px;
+>>>>>>> Stashed changes
 }
 
 .reactions button i{
@@ -102,6 +106,10 @@ article{
     background-color: #101D23;
     padding: 10px 20px;
     text-align: center;
+<<<<<<< Updated upstream
+=======
+    border-radius: 50px;
+>>>>>>> Stashed changes
 }
 
 .read-more a{
