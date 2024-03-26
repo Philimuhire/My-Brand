@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN PANEL</title>
+    <link rel="stylesheet" href="/admin-panel/blogs.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ADMIN PANEL</h1>
+            <nav>
+                <ul>
+                    <li><a href="/admin-panel/admin.html">Dashboard</a></li>
+                    <li><a href="/admin-panel/queries.html">Queries</a></li>
+                    <li><a href="/admin-panel/blogs.html">Blogs</a></li>
+                    <li><a href="/admin-panel/profile.html">Profile</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="blogs">
+                <h2>Blogs</h2>
+                <div id="all-blogs">
+                    <div class="blog-actions">
+                        <button class="like-btn">Like</button>
+                        <span class="likes-count">0</span> Likes
+                        <button class="comment-btn">Comment</button>
+                    </div>
+                    <div class="comments-section">
+                        <h4>Comments</h4>
+                        <ul class="comments-list"></ul>
+                        <textarea class="comment-input" placeholder="Write your comment"></textarea>
+                        <button class="submit-comment">Submit</button>
+                    </div>
+                    
+                </div>
+                <button id="add-blog-btn">Add Blog</button>
+            </section>           
+        </main>
+
+        <div id="update-blog-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Update Blog</h2>
+                <form id="update-blog-form">
+                    <div>
+                        <label for="update-title">Title:</label>
+                        <input type="text" id="update-title" name="update-title" required>
+                    </div>
+                    <div>
+                        <label for="update-content">Content:</label>
+                        <textarea id="update-content" name="update-content" rows="4" required></textarea>
+                    </div>
+                    <div>
+                        <label for="update-image">Image URL:</label>
+                        <input type="text" id="update-image" name="update-image" required>
+                    </div>
+                    <div>
+                        <button type="submit">Update</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="add-blog-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Add Blog</h2>
+                <form id="add-blog-form">
+                    <div>
+                        <label for="add-title">Title:</label>
+                        <input type="text" id="add-title" name="add-title" required>
+                    </div>
+                    <div>
+                        <label for="add-content">Content:</label>
+                        <textarea id="add-content" name="add-content" rows="4" required></textarea>
+                    </div>
+                    <div>
+                        <label for="add-image">Image URL:</label>
+                        <input type="file" id="add-image" name="add-image" accept="image/*" required>
+                    </div>
+                    <div id="image-preview"></div>
+                    <div>
+                        <button type="submit">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="/admin-panel/blogs.js"></script>
+</body>
+</html>

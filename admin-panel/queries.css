@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 16px;
+    color: blue;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+nav ul li a:hover{
+    color: blue;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+#queries-table {
+    border-top: 1px solid #ccc;
+    padding: 20px;
+}
+
+p,h3{
+    font-size: 16px;
+}
+
+button {
+    margin-left: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #51b8e8;
+}
+
+#queries-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#queries-table th, #queries-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#queries-table th {
+    background-color: #f2f2f2;
+}
+
+#queries-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#queries-table tr:hover {
+    background-color: #f0f0f0;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 16px;
+    color: blue;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+nav ul li a:hover{
+    color: blue;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+.dashboard-content {
+    border-top: 1px solid #ccc;
+    padding: 20px;
+}
+
+#queries-table {
+    border-top: 1px solid #ccc;
+    padding: 20px;
+}
+
+#all-blogs {
+    border-top: 1px solid #ccc;
+    padding: 20px;
+}
+
+p,h3{
+    font-size: 16px;
+}
+
+.blog {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.blog h3 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.blog p {
+    font-size: 16px;
+    color: #555;
+}
+
+.blog img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-left: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #51b8e8;
+}
+
+.update-btn {
+    background-color: #28a745; 
+}
+
+.delete-btn {
+    background-color: #dc3545; /
+}
+
+
+/* Add Blog and Update Blog Form Styles */
+
+.modal {
+    margin-left: 50px;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 50%;
+}
+
+.modal-content {
+    background-color: #888;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    color: #fff;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#queries-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#queries-table th, #queries-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#queries-table th {
+    background-color: #f2f2f2;
+}
+
+#queries-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#queries-table tr:hover {
+    background-color: #f0f0f0;
+}
+
+#all-blogs img {
+    width: 100%; 
+    height: auto; 
+    max-width: 200px; 
+    max-height: 200px; 
+    border-radius: 10px;
+}
+
+.like-btn,
+.comment-btn,
+.submit-comment {
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.comment-btn{
+    margin-left: 16px;
+}
+
+
+
+
+
+
+
+
+
+

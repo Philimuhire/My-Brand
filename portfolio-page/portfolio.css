@@ -1,0 +1,150 @@
+@media screen and (max-width: 767px){
+    .nav-middle {
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+
+    .nav-middle.show {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-icon {
+        width: 20px;
+        height: 20px;
+        color: #101D23;
+        display: block;
+    }
+    .nav-middle a{
+        padding: 5px;
+    }
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #101D23;;
+}
+.nav{
+    margin: 50px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.name{
+    color: #101D23;
+    font-size: 1.2 rem;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.nav-middle{
+    flex-grow: 1;
+    text-align: center;
+}
+.nav-middle a{
+    color: #101D23;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.nav-middle a:hover{
+    color: blue;
+}
+.nav-right a{
+    color: whitesmoke;
+    background-color: blue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.nav-right a:hover{
+    background-color: #51b8e8;
+}
+
+.title{
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+.title-p{
+    margin: 20px 50px;
+    text-align: center;
+    font-size: 16px;
+}
+.portfolio-links{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.portfolio-links a{
+    background-color: #101D23;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.portfolio-links a:hover{
+    background-color: #51b8e8;
+}
+
+.portfolios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.portfolio{
+    margin: 50px;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.portfolio.calculator{
+    background-image: url(/images/calculator.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.portfolio.url-shortener{
+    background-image: url(/images/url-shortener.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.portfolio.techme{
+    background-image: url(/images/TechMe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}  
+
+.portfolio p{
+    background-color: #101D23;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.portfolio a{
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px; 
+    text-decoration: none;  
+}
+.portfolio p:hover, .portfolio a:hover{
+    background-color: #51b8e8;
+}
+
+
+
